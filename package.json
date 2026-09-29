@@ -1,0 +1,16 @@
+{
+  "name": "api-prova02-isaacalexsander",
+  "version": "1.0.0",
+  "description": "API pública para prova de testes de integração",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
